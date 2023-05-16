@@ -28,6 +28,9 @@ input[type="number"] {
   -moz-appearance: none;
   appearance: none;
 }
+:root {
+  --primary: #40a3c0;
+}
 
 a {
   color: inherit;
@@ -35,4 +38,10 @@ a {
 }
 body {
   height: 100%;
+}
+.fill-white {
+  fill: #fff;
+}
+.fill-primary {
+  fill: var(--primary);
 }

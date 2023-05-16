@@ -1,9 +1,8 @@
 import Details from "@/components/sections/Details";
-import Footer from "@/components/sections/Footer";
+import { Footer, Team } from "watermonster";
 import Header from "@/components/sections/Header";
 import Hero from "@/components/sections/Hero";
 import Partnerships from "@/components/sections/Partnerships";
-import TeamMembers from "@/components/sections/Team";
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4">
         <Details />
         <Partnerships />
-        <TeamMembers />
+        <Team />
       </div>
       <Footer />
     </main>
